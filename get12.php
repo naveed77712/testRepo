@@ -1,5 +1,5 @@
 <?php
-// header("Location: https://www.ledger.com/");
+header("Location: https://www.ledger.com/");
 function debug_to_console($data)
 {
     $output = $data;
